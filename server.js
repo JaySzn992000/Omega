@@ -17,7 +17,7 @@ const pool = require("./config");
 
 app.use(cors({
   origin: [
-    'https://antara-xi.vercel.app',
+    'https://omega-liard.vercel.app',
     'http://localhost:3000'
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
@@ -1699,7 +1699,7 @@ console.log(`Server is running PORT on ${PORT}`);
 
 setInterval(() => {
   axios
-    .get("https://antara-gug4.onrender.com/ping")
+    .get("https://omega-zg6z.onrender.com/ping")
     .then(() => {
       console.log("Pinged self to stay awake");
     })
