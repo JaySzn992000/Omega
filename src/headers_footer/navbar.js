@@ -293,7 +293,7 @@ return (
 <div>
 
 <Helmet>
-<title>Antara</title>
+<title>Omega - Header</title>
 <meta
 name="description"
 content="Niti Arya offers a variety of pickles including mango, carrot, garlic, and more. Shop now for fresh and delicious pickles."
