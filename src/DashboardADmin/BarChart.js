@@ -56,7 +56,7 @@ const fetchCustomerOrders = async () => {
 
 try {
 
-const response = await fetch("https://antara-gug4.onrender.com/fetchCutomerOrder");
+const response = await fetch("https://omega-zg6z.onrender.com/fetchCutomerOrder");
 const data = await response.json();
 
 // Month-wise 
