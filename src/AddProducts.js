@@ -164,7 +164,7 @@ type="number"
 value={productPrice}
 
 onChange={(e) => {
-if (e.target.value.length <= 5) {
+if (e.target.value.length <= 6) {
 setProductPrice(e.target.value);
 }
 
