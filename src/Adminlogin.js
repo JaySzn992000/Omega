@@ -49,9 +49,9 @@ return;
 
 try {
 
-// https://antara-gug4.onrender.com/fetchAdmin
+// https://omega-zg6z.onrender.com/fetchAdmin
 
-const response = await fetch("https://antara-gug4.onrender.com/fetchAdmin", {
+const response = await fetch("https://omega-zg6z.onrender.com/fetchAdmin", {
 method: "POST",
 headers: { "Content-Type": "application/json" },
 body: JSON.stringify({
