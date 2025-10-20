@@ -60,7 +60,7 @@ e.preventDefault();
 if (!validateForm()) return;
 
 try {
-const response = await fetch("https://antara-gug4.onrender.com/updateAdminSimple", {
+const response = await fetch("https://omega-zg6z.onrender.com/updateAdminSimple", {
 method: "POST",
 headers: {
 "Content-Type": "application/json",
