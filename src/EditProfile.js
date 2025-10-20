@@ -111,7 +111,7 @@ return;
 }
 
 try {
-const response = await fetch("https://antara-gug4.onrender.com/updateform", {
+const response = await fetch("https://omega-zg6z.onrender.com/updateform", {
 method: "POST",
 headers: {
 "Content-Type": "application/json",
