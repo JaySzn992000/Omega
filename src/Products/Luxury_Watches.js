@@ -180,6 +180,7 @@ alt=""
 
 <div className="price_div">
 <li className="fa fa-inr"></li>
+<li>{product.price}</li>
 </div>
 <li>{product.sizes}</li>
 </div>
