@@ -50,7 +50,7 @@ return;
 }
 
 try {
-const response = await fetch("https://antara-gug4.onrender.com/fetchlogin", {
+const response = await fetch("https://omega-zg6z.onrender.com/fetchlogin", {
 method: "POST",
 headers: {
 "Content-type": "application/json",
