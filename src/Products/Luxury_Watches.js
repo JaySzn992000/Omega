@@ -182,7 +182,6 @@ alt=""
 <li className="fa fa-inr"></li>
 <li>{product.price}</li>
 </div>
-<li>{product.sizes}</li>
 </div>
 </div>
 </div>
