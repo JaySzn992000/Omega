@@ -236,7 +236,7 @@ z-index: 999;
 width: 27px;
 cursor: pointer;
 border-radius: 7px;
-color: rgb(255, 255, 255);
+filter: invert(1);
 }
 
 
