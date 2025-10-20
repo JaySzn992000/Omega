@@ -32,7 +32,7 @@ useEffect(() => {
 const fetchProductData = async () => {
 try {
 const response = await axios.get(
-"https://antara-gug4.onrender.com/fetchProductslist"
+"https://omega-zg6z.onrender.com/fetchProductslist"
 );
 setProductData(response.data);
 } catch (error) {
@@ -45,7 +45,7 @@ fetchProductData();
 
 const getProductImagePath = (productId) => {
 const product = productData.find((p) => p.id === productId);
-return product ? `https://antara-gug4.onrender.com${product.file_path}` : "";
+return product ? `https://omega-zg6z.onrender.com${product.file_path}` : "";
 };
 
 
