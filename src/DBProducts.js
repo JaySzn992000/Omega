@@ -15,7 +15,7 @@ const DbFetch = async () => {
 
 try {
 
-const response = await fetch("https://antara-gug4.onrender.com/fetchDB");
+const response = await fetch("https://omega-zg6z.onrender.com/fetchDB");
 
 const data = await response.json();
 
@@ -105,7 +105,7 @@ DB_products_PRQuery ? "DB_products_PRQuery-inside" : ""
 <td>
 {DisDb.file_path && (
 <img
-src={`https://antara-gug4.onrender.com${DisDb.file_path}`}
+src={`https://omega-zg6z.onrender.com${DisDb.file_path}`}
 alt={DisDb.name}
 className="product-img"
 />
