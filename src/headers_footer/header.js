@@ -74,7 +74,7 @@ return (
 <div>
 
 <Helmet>
-<title>Antara</title>
+<title>Omega - Header</title>
 <meta
 name="description"
 content="Explore the best quality pickles at Niti Arya. Shop now for a variety of delicious pickles with fast delivery."
