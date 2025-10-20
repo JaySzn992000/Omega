@@ -19,7 +19,7 @@ const query = new URLSearchParams(location.search).get("search");
 
 useEffect(() => {
 axios
-.get("https://antara-gug4.onrender.com/fetchProductslistShirt")
+.get("https://omega-zg6z.onrender.com/fetchProductslistShirt")
 .then((response) => {
 console.log("Fetched Carrot Pickles products:", response.data); 
 setAllProducts(response.data); 
@@ -38,7 +38,7 @@ console.error("Error fetching Carrot Pickles products:", error);
 useEffect(() => {
 if (query) {
 axios
-.get("https://antara-gug4.onrender.com/fetchProductslist", {
+.get("https://omega-zg6z.onrender.com/fetchProductslist", {
 params: { search: query },
 })
 .then((response) => {
